@@ -2,16 +2,13 @@
 Old Minecraft News blog, updated for recent Minecraft versions + companion launcher modification
 
 # Installation
-1. Install Java 8 if not already installed
-2. Download the launcher bootstrap from Mojang's S3: http://s3.amazonaws.com/Minecraft.Download/launcher/Minecraft.jar
-3. Run `Minecraft.jar`, then close the launcher when it loads
-4. Open `launcher.jar` inside the `.minecraft` folder with an archive tool
-5. Drag the `net` folder from `Release.zip` into launcher.jar
-6. Delete `MOJANGCS.RSA` and `MOJANGCS.SF` from the `META-INF` folder inside launcher.jar
+1. Install Java 8 if not already installed (available from https://adoptopenjdk.net/ or from Oracle)
+2. Download the latest launcher.jar from Mojang's S3: https://launcher.mojang.com/v1/objects/eabbff5ff8e21250e33670924a0c5e38f47c840b/launcher.jar
+3. Open launcher.jar with an archive tool
+4. Copy the `net` folder from `Release.zip` into `launcher.jar`
 
 # Usage
-You MUST open launcher.jar directly from now on!
-Using the bootstrap will replace the modified launcher with the original one.
+If you still have the old launcher bootstrap, you must delete it or it will redownload the original launcher.
 
 I reccommend creating a shortcut on the desktop that runs the following command
 
