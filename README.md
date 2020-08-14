@@ -1,18 +1,18 @@
 # mcupdate
 Old Minecraft News blog, updated for recent Minecraft versions + companion launcher modification
 
-# Requirements
-Java 8 or later (available from https://adoptopenjdk.net/ or from Oracle)
+## Requirements
+Java 8 or later (available from https://adoptopenjdk.net/ or from Oracle)  
+Many Linux distros come with Java but if not `sudo apt install default-jre` or the equivalent for your distro
 
-# Usage
+## Usage
 If you still have the old launcher bootstrap, you must delete it or it will redownload the original launcher.
 
 Put launcher.jar in your .minecraft folder and create a shortcut to launch it
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Command line for Windows:  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`javaw.exe -jar %appdata%\.minecraft\launcher.jar`
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Command line for Windows: `javaw.exe -jar %appdata%\.minecraft\launcher.jar`  
 
-If you use Java 11 or newer, you'll need to set these JVM arguments in the launcher.
-(The latest version of the mod applies these arguments automatically)
+A shell script is available for Linux users to automatically download the files and create a shortcut on the Desktop
 
-`-Xmx2G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M`
+## Disclaimer
+This patch is created in the hope it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
