@@ -15,4 +15,4 @@ Put launcher.jar in your .minecraft folder and create a shortcut to launch it
 A shell script is available for Linux users to automatically download the files and create a shortcut on the Desktop
 
 ## Disclaimer
-This patch is created in the hope it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+This software is provided "as-is", in the hope that it will be useful, but without any warranty; either expressed, implied or statutory, including implied warranties of merchantability or fitness for a particular purpose. 
