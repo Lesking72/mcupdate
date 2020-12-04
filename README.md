@@ -1,6 +1,8 @@
 # mcupdate
 Old Minecraft News blog, updated for recent Minecraft versions + companion launcher modification
 
+Note: The old launcher is likely going to stop working after Microsoft finishes consooming the login system.
+
 ## Requirements
 Java 8 or later (available from https://adoptopenjdk.net/ or from Oracle)  
 Many Linux distros come with Java but if not `sudo apt install default-jre` or the equivalent for your distro
